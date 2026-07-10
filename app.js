@@ -1067,9 +1067,8 @@ const APP = {
         </div>
         <p class="pdi-desc">${proj.description}</p>
         ${proj.detail}
-        <div class="sec" style="margin-top:24px;border-top:1px solid var(--border-color);padding-top:20px">
-          <div style="font-size:11px;color:var(--text-muted);line-height:1.7;text-align:center">
-            <script type="application/ld+json">
+        <div class="ael-branding" style="margin-top:32px;border-top:2px solid var(--border-color);padding-top:24px">
+          <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
@@ -1092,12 +1091,31 @@ const APP = {
     { "name": "Pink", "hex": "#FF4D8D", "meaning": "Energy & Distinction" }
   ]
 }
-            </script>
-            <hr style="border:none;border-top:1px solid var(--border-color);margin:12px 0">
+          </script>
+          <div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;padding:16px;background:var(--surface-color);border:1px solid var(--border-color);border-radius:12px">
+            <img src="assets/ael-logo.svg" alt="AEL Digital Studio" style="width:52px;height:52px;border-radius:10px;flex-shrink:0">
+            <div>
+              <div style="font-weight:700;font-size:15px;color:var(--text-primary)">AEL Digital Studio</div>
+              <div style="font-size:12px;color:var(--text-secondary);margin-top:2px">Visionary Architect · AI Orchestrator · Brand Designer</div>
+              <div style="font-size:11px;color:var(--text-muted);margin-top:4px">
+                <a href="https://www.aymanelmasry.com" target="_blank" rel="noopener" style="color:var(--primary)">aymanelmasry.com</a>
+                <span style="margin:0 6px">·</span>
+                <a href="mailto:info@aymanelmasry.com" style="color:var(--primary)">info@aymanelmasry.com</a>
+              </div>
+            </div>
+          </div>
+          <div style="display:flex;gap:4px;margin-bottom:20px;border-radius:8px;overflow:hidden;height:6px">
+            <span style="flex:1;background:#0074FF" title="AEL Blue — Trust & Intelligence"></span>
+            <span style="flex:1;background:#FFD700" title="Gold — Premium & Vision"></span>
+            <span style="flex:1;background:#00FFCC" title="Teal — Innovation & Flow"></span>
+            <span style="flex:1;background:#6C47FF" title="Purple — Depth & Creativity"></span>
+            <span style="flex:1;background:#FF4D8D" title="Pink — Energy & Distinction"></span>
+          </div>
+          <div style="font-size:12px;color:var(--text-muted);line-height:1.7;text-align:center">
             <p style="font-style:italic;margin:4px 0">&ldquo;AI gives you the tools, but the artist is the one who turns them into masterpieces.&rdquo;<br>&ldquo;الذكاء الاصطناعي يعطي الأدوات، لكن الفنان هو من يحولها إلى تحف فنية.&rdquo;</p>
             <p style="font-style:italic;margin:4px 0">&ldquo;Fame does not mean quality, and noise does not mean efficiency. True quality reveals itself in silence, while noise disappears when it truly matters.&rdquo;<br>&ldquo;الشهرة لا تعني الجودة، والضجيج لا يعني الكفاءة. الجودة الحقيقية تظهر في صمت، بينما يختفي الضجيج عندما يحين وقت الإنجاز الحقيقي.&rdquo;</p>
             <p style="font-style:italic;margin:4px 0">&ldquo;I don't design logos. I design logo generators. I don't build images. I build engines that produce images.&rdquo;<br>&ldquo;أنا لا أصمم الشعارات، بل أصمم مولدات الشعارات. ولا أبني الصور، بل أبني محركات تُنتج الصور.&rdquo;</p>
-            <p style="margin:12px 0 0;color:var(--text-secondary)">— Ayman Elmasry</p>
+            <p style="margin:12px 0 0;font-weight:600;color:var(--text-secondary)">— Ayman Elmasry</p>
           </div>
         </div>
         <button class="btn-primary" style="margin-top:16px">&#x25B6; Start Project</button>
