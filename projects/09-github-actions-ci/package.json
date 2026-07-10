@@ -1,0 +1,12 @@
+{
+  "name": "github-actions-ci-lab",
+  "version": "1.0.0",
+  "description": "CI/CD starter project with GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "node index.js",
+    "lint": "echo 'Linting passed'"
+  },
+  "license": "MIT"
+}

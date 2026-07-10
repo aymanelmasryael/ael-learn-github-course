@@ -1,0 +1,52 @@
+# Learn GitHub — From Zero to Professional
+
+**Author:** Ayman Elmasry  
+**Studio:** AEL Digital Studio  
+**License:** MIT
+
+An interactive GitHub course — 3 levels, 20 modules, 10 hands-on projects (each teaching one Git/GitHub concept), and an interactive playground.
+
+## Quick Start
+
+```bash
+open learn-github-course.html
+```
+
+## Course Levels
+
+| Level | Modules | Focus |
+|-------|---------|-------|
+| **Git Foundation** | 1-7 | Git basics, branches, remotes, PRs, issues |
+| **GitHub Ecosystem** | 8-13 | Projects, Actions, Pages, Security, Releases |
+| **Professional Mastery** | 14-20 | Organizations, Open Source, Advanced Git, Portfolio |
+
+## Projects
+
+| # | Project | Concept |
+|---|---------|---------|
+| 01 | First Repository | Init, Add, Commit, Push |
+| 02 | Professional README | Markdown & Documentation |
+| 03 | Git Ignore Lab | .gitignore & File Management |
+| 04 | Branching Workflow | Branches & Merging |
+| 05 | Merge Conflict Lab | Conflict Resolution |
+| 06 | Fork & Pull Request | Fork, PR, Code Review |
+| 07 | GitHub Pages Portfolio | Deployment & Hosting |
+| 08 | Issue & Project Board | Project Management |
+| 09 | GitHub Actions CI | CI/CD Automation |
+| 10 | Professional Open Source Repository | Full Professional Setup |
+
+## Structure
+
+```
+learn-github-course/
+├── learn-github-course.html    # Interactive course
+├── styles.css                  # Styles
+├── app.js                      # Application logic
+├── assets/                     # Logo, images
+├── cover.svg                   # Social preview
+├── README.md, LICENSE, etc.    # Documentation
+├── docs/                       # Detailed documentation
+└── projects/                   # 10 hands-on projects
+```
+
+© 2026 Ayman Elmasry — AEL Digital Studio

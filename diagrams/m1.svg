@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <filter id="g"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity=".3"/></filter>
+    <linearGradient id="g0" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity=".6"/>
+    </linearGradient>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#3fb950" stop-opacity=".6"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d2a8ff" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#d2a8ff" stop-opacity=".6"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="#0d1117"/>
+  <text x="300" y="38" fill="#eef2ff" font-family="system-ui,sans-serif" font-size="15" font-weight="bold" text-anchor="middle">The Three States of Git</text>
+  <text x="300" y="56" fill="#9ab3e6" font-family="system-ui,sans-serif" font-size="11" text-anchor="middle">Files move through three states: working → staged → committed</text>
+  <rect x="65" y="160" width="130" height="70" rx="12" fill="url(#g0)" filter="url(#g)"/>
+  <rect x="65" y="160" width="130" height="70" rx="12" fill="none" stroke="#58a6ff" stroke-width="1" stroke-opacity=".4"/>
+  <text x="130" y="186" fill="#fff" font-family="system-ui,sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Working Directory</text>
+  <rect x="235" y="160" width="130" height="70" rx="12" fill="url(#g1)" filter="url(#g)"/>
+  <rect x="235" y="160" width="130" height="70" rx="12" fill="none" stroke="#3fb950" stroke-width="1" stroke-opacity=".4"/>
+  <text x="300" y="186" fill="#fff" font-family="system-ui,sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Staging Area</text>
+  <rect x="405" y="160" width="130" height="70" rx="12" fill="url(#g2)" filter="url(#g)"/>
+  <rect x="405" y="160" width="130" height="70" rx="12" fill="none" stroke="#d2a8ff" stroke-width="1" stroke-opacity=".4"/>
+  <text x="470" y="190" fill="#fff" font-family="system-ui,sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Repository</text>
+  <text x="470" y="176" fill="#fff" font-family="system-ui,sans-serif" font-size="12" font-weight="bold" text-anchor="middle">(Committed)</text>
+  <line x1="201" y1="195" x2="229" y2="195" stroke="#58a6ff" stroke-width="2" stroke-opacity=".6"/>
+  <polygon points="221,190 229,195 221,200" fill="#58a6ff" fill-opacity=".6"/>
+  <text x="215" y="183" fill="#58a6ff" font-family="system-ui,sans-serif" font-size="9" text-anchor="middle">git add</text>
+  <line x1="371" y1="195" x2="399" y2="195" stroke="#58a6ff" stroke-width="2" stroke-opacity=".6"/>
+  <polygon points="391,190 399,195 391,200" fill="#58a6ff" fill-opacity=".6"/>
+  <text x="385" y="183" fill="#58a6ff" font-family="system-ui,sans-serif" font-size="9" text-anchor="middle">git commit</text>
+  <text x="16" y="346" fill="#58a6ff" font-family="monospace" font-size="10" opacity=".5">m1</text>
+</svg>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn GitHub — From Zero to Professional | AEL Digital Studio</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F393;</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+  <meta property="og:title" content="Learn GitHub — From Zero to Professional">
+  <meta property="og:description" content="An interactive, hands-on course covering Git and GitHub from basics to professional mastery. Includes 23 modules, 10 projects, quizzes, and interactive playground.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aeldigitalstudio.github.io/learn-github-course/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Learn GitHub — From Zero to Professional">
+  <meta name="twitter:description" content="An interactive, hands-on course covering Git and GitHub from basics to professional mastery.">
+</head>
+<body>
+
+  <div class="noise"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <nav class="navbar glass" id="navbar"></nav>
+
+  <main>
+
+    <section class="section active" id="home">
+      <div class="container" id="home-content"></div>
+    </section>
+
+    <section class="section" id="paths">
+      <div class="container" id="paths-content"></div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="container" id="certifications-content"></div>
+    </section>
+
+    <section class="section" id="levels">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">&#x1F4DA; Course Levels</div>
+          <h2>Three Levels to Mastery</h2>
+          <p>Choose your level and start your learning journey</p>
+        </div>
+        <div class="level-tabs" id="levels-sidebar"></div>
+        <div class="modules-grid" id="modules-container"></div>
+        <div class="module-detail" id="module-detail"></div>
+        <div id="quizContainer" style="margin-top:20px"></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">&#x1F680; Hands-On Projects</div>
+          <h2>10 Real-World Projects</h2>
+          <p>Apply what you learn with step-by-step projects</p>
+        </div>
+        <div class="projects-layout">
+          <div class="projects-list" id="projects-container"></div>
+          <div class="projects-detail-panel" id="project-detail"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="playground">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">&#x1F3AE; Interactive Playground</div>
+          <h2>Practice in Real Time</h2>
+          <p>Try Git commands and test different scenarios</p>
+        </div>
+        <div class="playground-tabs" id="playground-tabs">
+          <button class="playground-tab active" data-playground="terminal">&#x1F4BB; Terminal</button>
+          <button class="playground-tab" data-playground="pr">&#x1F500; Pull Request</button>
+          <button class="playground-tab" data-playground="issues">&#x1F41B; Issues</button>
+          <button class="playground-tab" data-playground="actions">&#x2699;&#xFE0F; Actions</button>
+        </div>
+        <div class="playground-terminal">
+          <div class="terminal-body" id="terminal-body">
+            <div class="terminal-line"><span class="terminal-prompt">$</span> Welcome to the Git command simulator!</div>
+            <div class="terminal-line"><span class="terminal-prompt">$</span> Try commands like: help, status, init, log</div>
+          </div>
+        </div>
+        <div class="playground-editor">
+          <textarea id="playground-input" placeholder="$ Type a Git command here..." spellcheck="false" dir="ltr"></textarea>
+          <textarea id="playground-md-input" placeholder="Write Markdown here..." spellcheck="false" style="display:none" dir="ltr"></textarea>
+          <textarea id="playground-yml-input" placeholder="Write YAML workflow here..." spellcheck="false" style="display:none" dir="ltr"></textarea>
+        </div>
+        <div class="playground-output" id="playground-action-output" style="display:none"></div>
+        <div class="playground-output" id="playground-output">
+          <div class="output-placeholder">&#x1F3AE; Type a command and run it...</div>
+        </div>
+        <div class="playground-actions">
+          <button class="btn-primary" data-action="playground-run">&#x25B6; Run</button>
+          <button class="btn-secondary" data-action="playground-clear">&#x1F9F9; Clear</button>
+          <button class="btn-secondary" data-action="playground-format">&#x1F4CB; Format</button>
+          <button class="btn-secondary" data-action="playground-copy">&#x1F4CB; Copy</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="glossary">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">&#x1F4D6; Glossary</div>
+          <h2>Git & GitHub Terms</h2>
+          <p>Quick reference for over 70 essential terms</p>
+        </div>
+        <div id="glossary-container"></div>
+      </div>
+    </section>
+
+    <section class="section" id="resources">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">&#x1F4DA; Learning Resources</div>
+          <h2>References & Further Learning</h2>
+          <p>Curated resources to deepen your Git and GitHub knowledge</p>
+        </div>
+        <div id="resources-container"></div>
+      </div>
+    </section>
+
+    <section class="section" id="cheatsheet">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">&#x1F4DD; Quick Reference</div>
+          <h2>Cheat Sheet</h2>
+          <p>Git, Markdown & GitHub Actions commands</p>
+        </div>
+        <div class="cheatsheet-grid" id="cheatsheet-container"></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container" id="about-content"></div>
+    </section>
+
+    <section class="section" id="settings">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">&#x2699;&#xFE0F; Settings</div>
+          <h2>Settings</h2>
+          <p>Manage your progress and data</p>
+        </div>
+        <div id="settings-container"></div>
+      </div>
+    </section>
+
+    <section class="section" id="search">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">&#x1F50D; Search</div>
+          <h2>Search Everything</h2>
+          <p>Find modules, lessons, projects, and glossary terms</p>
+        </div>
+        <div id="search-container"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">&#x2191;</button>
+  <script src="lessons.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
