@@ -9,7 +9,7 @@
 
 ## Reporting a Vulnerability
 
-To report a security vulnerability, please email security@example.com.
+To report a security vulnerability, please email info@aymanelmasry.com.
 
 Do not open a public issue for security vulnerabilities.
 
