@@ -6,6 +6,19 @@
 
 An interactive GitHub course — 3 levels, 23 modules, 10 hands-on projects (each teaching one Git/GitHub concept), and an interactive playground.
 
+---
+
+## 📚 Learning Metadata
+
+| | |
+|---|---|
+| **Learning Level** | Beginner to Professional |
+| **Estimated Duration** | 23 modules, 10 projects, 20+ hours |
+| **Prerequisites** | Basic computer skills, command line familiarity |
+| **Learning Outcomes** | After completing this course you will be able to master Git, GitHub workflows, CI/CD, open source contribution, and professional portfolio |
+
+---
+
 ## Quick Start
 
 ```bash
