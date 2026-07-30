@@ -4,7 +4,7 @@
 **Studio:** AEL Digital Studio  
 **License:** MIT
 
-An interactive GitHub course — 3 levels, 20 modules, 10 hands-on projects (each teaching one Git/GitHub concept), and an interactive playground.
+An interactive GitHub course — 3 levels, 23 modules, 10 hands-on projects (each teaching one Git/GitHub concept), and an interactive playground.
 
 ## Quick Start
 
@@ -18,7 +18,7 @@ open learn-github-course.html
 |-------|---------|-------|
 | **Git Foundation** | 1-7 | Git basics, branches, remotes, PRs, issues |
 | **GitHub Ecosystem** | 8-13 | Projects, Actions, Pages, Security, Releases |
-| **Professional Mastery** | 14-20 | Organizations, Open Source, Advanced Git, Portfolio |
+| **Professional Mastery** | 14-23 | Organizations, Open Source, Advanced Git, Portfolio |
 
 ## Projects
 

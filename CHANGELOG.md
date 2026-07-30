@@ -3,7 +3,7 @@
 ## [1.0.0] — 2026-07-10
 
 ### Added
-- 3 course levels with 20 modules
+- 3 course levels with 23 modules
 - 10 hands-on projects
 - Interactive playground with terminal, PR, issue, and actions simulators
 - Glossary with 50+ Git/GitHub terms
