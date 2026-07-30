@@ -62,4 +62,15 @@ learn-github-course/
 └── projects/                   # 10 hands-on projects
 ```
 
+---
+
+## 🔗 Related Resources
+
+- [AEL Learning Catalog](https://github.com/aymanelmasryael/ael-learning-catalog) — Central entry point to all AEL courses
+- [Learn OpenCode](https://github.com/aymanelmasryael/ael-learn-opencode-course) — From zero to professional with OpenCode agentic coding
+- [Terminal Reference](https://github.com/aymanelmasryael/ael-terminal-engineering-reference-2026) — 220+ terminal commands across 20 categories
+- [Engineering Academy](https://github.com/aymanelmasryael/ael-engineering-academy) — Complete LLM engineering platform from zero to production
+
+---
+
 © 2026 Ayman Elmasry — AEL Digital Studio
