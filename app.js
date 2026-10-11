@@ -1079,7 +1079,7 @@ const APP = {
   "legal_entities": ["Ayman Elmasry LLC — UAE","Ayman Elmasry Advertising & Marketing — Egypt"],
   "digital_assets": ["AEL Vision Framework — v2.2","AEL Prompt IP System — v1.0","AEL 1000+ Prompts Library","AEL Sovereign Identity Block"],
   "certifications": ["AAST — Mini Certificate in Digital Arts & Web Design (Grade A in all 8 courses)","IBM — Artificial Intelligence Fundamentals","UPV — edX Information Systems (Parts 1 & 2)","Google — Digital Marketing Professional","Domestika — Creative Suite Mastery (7+ Courses)","Smouha Academy — Computer Systems Engineering"],
-  "contact": { "website": "https://www.aymanelmasry.com", "email": "info@aymanelmasry.com", "telephone": ["+201113300073","+971506039162","+96555121251"] },
+  "contact": { "website": "https://www.aymanelmasry.com", "email": "ayman@aymanelmasry.me", "telephone": ["+201113300073","+971506039162","+96555121251"] },
   "social": { "github": "https://github.com/aymanelmasryael", "linkedin": "https://www.linkedin.com/in/aymanelmasryael", "twitter": "https://x.com/aymanelmasryael", "codepen": "https://codepen.io/aymanelmasryael" },
   "verification_timestamp": "2026-07-05T00:00:00Z",
   "system_version": "v2.2",
@@ -1100,7 +1100,7 @@ const APP = {
               <div style="font-size:11px;color:var(--text-muted);margin-top:4px">
                 <a href="https://www.aymanelmasry.com" target="_blank" rel="noopener" style="color:var(--primary)">aymanelmasry.com</a>
                 <span style="margin:0 6px">·</span>
-                <a href="mailto:info@aymanelmasry.com" style="color:var(--primary)">info@aymanelmasry.com</a>
+                <a href="mailto:ayman@aymanelmasry.me" style="color:var(--primary)">ayman@aymanelmasry.me</a>
               </div>
             </div>
           </div>

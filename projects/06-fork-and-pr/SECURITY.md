@@ -8,6 +8,6 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security issue, please email info@aymanelmasry.com instead of opening a public issue.
+If you discover a security issue, please email ayman@aymanelmasry.me instead of opening a public issue.
 
 You should receive a response within 48 hours. If the issue is confirmed, a patch will be released as soon as possible.

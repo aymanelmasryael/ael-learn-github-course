@@ -9,7 +9,7 @@
 
 ## Reporting a Vulnerability
 
-To report a security vulnerability, please email info@aymanelmasry.com.
+To report a security vulnerability, please email ayman@aymanelmasry.me.
 
 Do not open a public issue for security vulnerabilities.
 
