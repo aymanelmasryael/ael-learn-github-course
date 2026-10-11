@@ -5,13 +5,13 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', Geneva, sans-serif;
   line-height: 1.6;
   color: #333;
 }
 
 header {
-  background: #2c3e50;
+  background: #0B1220;
   color: #fff;
   padding: 1rem;
   position: sticky;
@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #3498db;
+  color: #0074FF;
 }
 
 section {
@@ -50,7 +50,7 @@ section {
 section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #2c3e50;
+  color: #0B1220;
 }
 
 #skills ul {
@@ -61,7 +61,7 @@ section h2 {
 }
 
 #skills ul li {
-  background: #3498db;
+  background: #0074FF;
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -75,7 +75,7 @@ section h2 {
 }
 
 footer {
-  background: #2c3e50;
+  background: #0B1220;
   color: #fff;
   text-align: center;
   padding: 1rem;
